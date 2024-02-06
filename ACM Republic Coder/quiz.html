@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.png">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav">
+        <a class="link" href="index.html">Info</a> 
+        <a class="link" href="articles.html">Articles</a> 
+        <a class="link" href="image.html">Images</a> 
+        <a class="link" href="quiz.html">Quiz</a> 
+         <a class="link" href="footer.html">Contact us</a> 
+            </div>
+            
+<div class="quiz_here" id="quiz">
+           <div class="game">
+            <h1>Let's take a quiz!!</h1>
+        
+            <div class="q_card" id="q_card">
+             <h4 id="quesBox">Questions as follows</h4>
+             <div class="row">
+                 <input class="option" id="option1" type="radio" value="a" name="Option"/>
+                 <label for="option1" >(a) Option 1</label>
+             </div>
+             <div class="row">
+                 <input class="option" id="option2" type="radio"value="b"name="Option">
+                 <label for="option2">(b) Option 2</label>
+             </div>
+             <div class="row">
+                 <input class="option" id="option3" type="radio"value="c"name="Option"/>
+                 <label for="option3">(c) Option 3</label>
+             </div>
+             <div class="row">
+                 <input class="option" id="option4" type="radio"value="d"name="Option"/>
+                 <label for="option4">(d) Option 4</label>
+             </div>
+             <button class="btn" onclick="submitQuiz()">Submit</button>
+         </div>             
+
+           </div>
+      
+    </div> 
+           
+    
+    <script src="file.js"></script>
+</body>
+</html>
